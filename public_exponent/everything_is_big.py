@@ -9,11 +9,9 @@ c = 0x6a2f2e401a54eeb5dab1e6d5d80e92a6ca189049e22844c825012b8f0578f95b269b19644c
 
 
 d = owiener.attack(e, N)
-
 pt = pow(int(c), d, int(N))
 
 decrypted = long_to_bytes(pt)
-
 print(decrypted)
 
 # NOTA IMPORTANTE: Se supone que este reto se resuelve mediante el Ataque de Wiener

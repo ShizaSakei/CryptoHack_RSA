@@ -1,3 +1,4 @@
-from sympy.ntheory import factorint
+from primefac import primefac
 
-print(factorint(510143758735509025530880200653196460532653147))
+# Factorización de enteros
+print(primefac(510143758735509025530880200653196460532653147))
