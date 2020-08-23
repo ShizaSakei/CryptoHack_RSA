@@ -15,6 +15,6 @@ for key in friend_keys:
     cipher = pow(cipher, d, N)
 
 decrypted = long_to_bytes(cipher)
-print(f"Decrypted flag: {decrypted}")
+print(decrypted)
 
     
